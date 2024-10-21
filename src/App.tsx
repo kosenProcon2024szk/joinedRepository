@@ -1,12 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Link } from "react-router-dom";
 import './App.css';
 
 function App() {
-  const tytleName: string = '高専プロコン2024競技部門'
+  const titleName: string = "高専プロコン2024競技部門";
   return (
     <div className="App">
-      <h1>{tytleName}</h1>
+      <h1>igasa_K's portfolio</h1>
+      <Link to='/procon35'>
+        {titleName}
+      </Link>
     </div>
   );
 }
