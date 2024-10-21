@@ -1,6 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Link } from "react-router-dom";
+import LinkButton from "./children/LinkButton";
 import './App.css';
 
 function App() {
@@ -8,9 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>igasa_K's portfolio</h1>
-      <Link to='/procon35'>
-        {titleName}
-      </Link>
+      <LinkButton text="高専プロコン2024競技部門" link="/procon35" />
     </div>
   );
 }
