@@ -1,3 +1,5 @@
+import React from 'react';
+
 function procon35() {
     const title: string = "高専プロコン競技部門";
 
